@@ -61,7 +61,7 @@ function findPlayer() {
   }
 
   result.innerHTML = `
-    <h3>${player.name}</h3>
+    <h3>TFC Member ID: ${player.name}</h3>
     <img src="${player.photo}" alt="${player.name}" style="max-width: 200px;" />
     <p><strong>Account Balance:</strong> ${player.balance}</p>
     <p><strong>Uniform Name:</strong> ${player.uniformName}</p>
@@ -156,6 +156,8 @@ async function fetchSheetCSVByIndex() {
       uniformName: cols[4]?.trim() ?? "",
       size: cols[5]?.trim() ?? "",
       number: cols[6]?.trim() ?? ""
+      motto: cols[7]?.trim() ?? ""
+      teams: cols[8]?.trim() ?? ""
     };
   }).filter(p => p !== null); // Remove null rows
 
@@ -198,6 +200,7 @@ async function loadAndMergePlayers() {
 
 // Call the merge loader on page load or script start
 loadAndMergePlayers();
+
 
 
 
