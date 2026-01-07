@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Soccer Club Player Lookup</title>
+  <style>
+    .autocomplete-container {
+      position: relative;
+      max-width: 320px;
+    }
+    #suggestions {
+      border: 1px solid #ccc;
+      max-width: 320px;
+      position: absolute;
+      background: white;
+      z-index: 100;
+      cursor: pointer;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+    #suggestions div {
+      padding: 5px;
+    }
+    #suggestions div:hover {
+      background-color: #f0f0f0;
+    }
+    #result img {
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+    
+.search-container {
+  display: flex;
+  align-items: center;
+  max-width: 320px;
+  gap: 8px; /* space between input and button */
+}
+
+#search {
+  flex: 1; /* input takes available width */
+  padding: 6px 8px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 6px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+  </style>
+</head>
+<body>
+  <h2>TFC Player Lookup</h2>
+
+<div class="search-container">
+  <input id="search" type="text" placeholder="Enter player name" autocomplete="off" />
+  <button onclick="findPlayer()">Search</button>
+</div>
+<div id="suggestions"></div>
+<div id="result"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
