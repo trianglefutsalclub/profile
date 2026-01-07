@@ -190,6 +190,11 @@
     "fullname": "Emilio Hood"
   },
   {
+    "name": "Erez",
+    "photo": "photos/erez.jpg",
+    "fullname": "Erez Halfon"
+  },
+  {
     "name": "Eric J",
     "photo": "photos/eric_j.jpg",
     "fullname": "Eric JohnBull"
@@ -645,6 +650,7 @@
     "fullname": "Zachary Leeman"
   }
 ]
+
 
 
 
