@@ -15,7 +15,7 @@ document.getElementById("search").addEventListener("keydown", function(event) {
 
 let players = [];
 
-fetch("https://raw.githubusercontent.com/trianglefutsal/profile/main/players.json")
+fetch("https://raw.githubusercontent.com/trianglefutsalclub/profile/main/players.json")
   .then(res => res.json())
   .then(data => players = data)
   .catch(err => console.error(err));
@@ -162,7 +162,7 @@ async function fetchSheetCSVByIndex() {
 
 
 async function fetchLocalJSON() {
-  const res = await fetch("https://raw.githubusercontent.com/trianglefutsal/profile/main/players.json");
+  const res = await fetch("https://raw.githubusercontent.com/trianglefutsalclub/profile/main/players.json");
   const data = await res.json();
   return data;
 }
@@ -196,6 +196,7 @@ async function loadAndMergePlayers() {
 
 // Call the merge loader on page load or script start
 loadAndMergePlayers();
+
 
 
 
