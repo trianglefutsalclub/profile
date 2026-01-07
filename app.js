@@ -67,7 +67,9 @@ function findPlayer() {
     <p><strong>Uniform Name:</strong> ${player.uniformName}</p>
     <p><strong>Uniform Number:</strong> ${player.number}</p>
     <p><strong>Uniform Size:</strong> ${player.size}</p>
-    <p><strong>Player Description:</strong> ${player.fullname}</p>
+    <p><strong>Member's Full Name:</strong> ${player.fullname}</p>
+    <p><strong>Member's Soccer Motto:</strong> ${player.motto}</p>
+    <p><strong>Member's Favorite Teams:</strong> ${player.teams}</p>
   `;
 }
 
@@ -196,6 +198,7 @@ async function loadAndMergePlayers() {
 
 // Call the merge loader on page load or script start
 loadAndMergePlayers();
+
 
 
 
