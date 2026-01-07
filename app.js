@@ -155,9 +155,10 @@ async function fetchSheetCSVByIndex() {
       status: cols[3]?.trim() ?? "",
       uniformName: cols[4]?.trim() ?? "",
       size: cols[5]?.trim() ?? "",
-      number: cols[6]?.trim() ?? "",
-      motto: cols[7]?.trim() ?? "",
-      teams: cols[8]?.trim() ?? ""
+      number: cols[6]?.trim() ?? ""
+      //,
+      //motto: cols[7]?.trim() ?? "",
+      //teams: cols[8]?.trim() ?? ""
     };
   }).filter(p => p !== null); // Remove null rows
 
@@ -200,6 +201,7 @@ async function loadAndMergePlayers() {
 
 // Call the merge loader on page load or script start
 loadAndMergePlayers();
+
 
 
 
