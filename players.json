@@ -290,7 +290,7 @@
     "fullname": "Ian Larson"
   },
   {
-    "name": Igor"",
+    "name": "Igor",
     "photo": "photos/igor.jpg",
     "fullname": "Igor Oleynyk"
   },
@@ -305,7 +305,7 @@
     "fullname": "Jaime Prada"
   },
   {
-    "name": Jake"",
+    "name": "Jake",
     "photo": "photos/jake.jpg",
     "fullname": "Jake Kiser"
   },
@@ -650,6 +650,7 @@
     "fullname": "Zachary Leeman"
   }
 ]
+
 
 
 
