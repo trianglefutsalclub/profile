@@ -8,8 +8,69 @@
     "name": "Alex P",
     "photo": "photos/alex_p.jpg",
     "fullname": "Alex Zoltan Pauncz"
+  },
+  {
+    "name": "Abi",
+    "photo": "photos/abi.jpg",
+    "fullname": "Abhinav Bhatta"
+  },
+  {
+    "name": "Ahmad",
+    "photo": "photos/ahmad.jpg",
+    "fullname": "Ahmad Alhorani"
+  },
+  {
+    "name": "Anton",
+    "photo": "photos/anton.jpg",
+    "fullname": "Anton Bogdan"
+  },
+  {
+    "name": "Alex K",
+    "photo": "photos/alex_k.jpg",
+    "fullname": "Alexksandr Kleyner"
+  },
+  {
+    "name": "Alex S",
+    "photo": "photos/alex_s.jpg",
+    "fullname": "Alex Sanchez Rodriguez"
+  },
+  {
+    "name": "Asad",
+    "photo": "photos/asad.jpg",
+    "fullname": "Ahmadzai Asadullah"
+  },
+  {
+    "name": "Asaf",
+    "photo": "photos/asaf.jpg",
+    "fullname": "Asaf Azarsky"
+  },
+  {
+    "name": "Asif",
+    "photo": "photos/asif.jpg",
+    "fullname": "Asif A Khan"
+  },
+  {
+    "name": "Attila",
+    "photo": "photos/attila.jpg",
+    "fullname": "Attila Ambrus"
+  },
+  {
+    "name": "Ariel",
+    "photo": "photos/ariel.jpg",
+    "fullname": "Ariel Santizo"
+  },
+  {
+    "name": "Austin",
+    "photo": "photos/austin.jpg",
+    "fullname": "Austin Blanton"
+  },
+  {
+    "name": "Ayman",
+    "photo": "photos/ayman.jpg",
+    "fullname": "Ayman Khan"
   }
 ]
+
 
 
 
