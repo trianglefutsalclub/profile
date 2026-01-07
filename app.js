@@ -68,6 +68,7 @@ function findPlayer() {
     <p><strong>Uniform Number:</strong> ${player.number}</p>
     <p><strong>Uniform Size:</strong> ${player.size}</p>
     <p><strong>Member's Full Name:</strong> ${player.fullname}</p>
+    <p><strong>Member's Extra:</strong> ${player.extra}</p>
   `;
 }
 
@@ -153,7 +154,8 @@ async function fetchSheetCSVByIndex() {
       status: cols[3]?.trim() ?? "",
       uniformName: cols[4]?.trim() ?? "",
       size: cols[5]?.trim() ?? "",
-      number: cols[6]?.trim() ?? ""
+      number: cols[6]?.trim() ?? "",
+      extra: cols[7]?.trim() ?? ""
     };
   }).filter(p => p !== null); // Remove null rows
 
@@ -196,6 +198,7 @@ async function loadAndMergePlayers() {
 
 // Call the merge loader on page load or script start
 loadAndMergePlayers();
+
 
 
 
